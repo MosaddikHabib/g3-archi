@@ -1,0 +1,257 @@
+body {
+    font-family: 'Work Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+header {
+    padding: 10px;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.logo {
+    font-family: Work Sans;
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 53px;
+    letter-spacing: 0em;
+    text-align: center;
+
+}
+
+.menu-item ul li {
+    list-style: none;
+    margin-left: 20px;
+    font-family: Work Sans;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: center;
+
+}
+
+.menu-item ul {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+
+.new-architects {
+    height: 225px;
+    width: 862px;
+    left: 529px;
+    top: 205px;
+}
+
+.new-architects .brand-heading {
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 75px;
+    text-align: center;
+    margin-left: 240px;
+}
+
+.new-architects p {
+    font-family: Work Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin-left: 240px;
+}
+
+.explore-btn {
+    background-color: #FF900E;
+    color: white;
+    text-decoration: none;
+    height: 48px;
+    width: 170px;
+    border: none;
+    border-radius: 8px;
+    text-align: center;
+    font-size: 20px;
+    margin-left: 458px;
+}
+
+header .banner-img {
+    height: 450px;
+    width: 70%;
+    margin-left: 210px;
+    margin-top: 140px;
+}
+
+
+/* style of feature section  */
+.feature {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-top: 10%;
+}
+
+.feature .team-img {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+}
+
+.feature .team-info {
+    padding: 5px;
+}
+
+.feature .team-info h3 {
+    font-size: 45px;
+    font-weight: 500;
+    color: #727272;
+}
+
+.feature .team-info h3 .blk {
+    color: black;
+    font-weight: bold;
+}
+
+.feature .team-info h3 .orng {
+    color: #FF900E;
+    font-weight: bold;
+}
+
+.feature .exp-btn {
+    margin-left: 0;
+}
+
+.team-size {
+    width: 390px;
+}
+
+
+
+/* "Features you will love & enjoy" section */
+.packinfo-photo {
+    display: flex;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.packinfo-photo h2 {
+    border-left: 5px solid #FF900E;
+    padding-left: 21px;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.package-info p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.package-info .package {
+    height: 140px;
+    width: 514px;
+    padding: 30px;
+}
+
+.package-info .package-list {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+}
+
+.list-btn {
+    background-color: #FF900E;
+    color: white;
+    text-decoration: none;
+    height: 80px;
+    width: 200px;
+    border: none;
+    border-radius: 8px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.list-btn .experiece {
+    font-size: 25px;
+    font-weight: 500;
+}
+
+/* some fact style section  */
+.some-fact {
+    display: flex;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 50px;
+
+}
+
+.some-fact h3 {
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 53px;
+    text-align: left;
+
+}
+
+.all-fact-card {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 100px;
+    margin-top: 30px;
+    /* justify-content: space-between; */
+}
+
+.fact-card {
+    width: 242px;
+    height: 242px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #FF900E;
+    border-radius: 5px;
+}
+
+/* sponsor list style  */
+.sponsor {
+
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 65px;
+}
+
+.sponsor-header .sponsor-align {
+    margin-left: 5%;
+    text-align: center;
+}
+
+.sponsor-list {
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 115px;
+}
+
+/* footer section */
+footer p {
+    text-align: center;
+    width: 1440px;
+    height: 100px;
+    margin-left: 130px;
+    margin-top: 80px;
+}
